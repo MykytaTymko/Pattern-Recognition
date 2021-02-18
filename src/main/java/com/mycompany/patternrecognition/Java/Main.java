@@ -30,7 +30,7 @@ public class Main {
 
     public static void doSomething(String pattern, String blobs) {
 
-        String[] wor = blobs.split("/");
+        String[] wor = blobs.split("A");
         String[] symbols = pattern.split("");
 
         int[] count = new int[wor.length + 1];
